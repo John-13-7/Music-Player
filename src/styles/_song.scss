@@ -1,0 +1,21 @@
+.song-container{
+    min-height: 60vh;
+    display: flex; // gives us align items
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
+
+    img{
+        width: 20%;
+        border-radius: 90%; //turns it into a circle
+    }
+
+    h2{
+        padding: 3rem 1rem 1rem 1rem;
+    }
+
+    h3{
+        font-size: 1rem;
+    }
+    
+}
